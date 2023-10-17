@@ -1,0 +1,82 @@
+Enter the number of nodes: 5
+Enter the name of node 1: 1
+Enter the number of outgoing connections from 1: 4
+Enter connected node and weight (e.g., B 5): 2 7
+Enter connected node and weight (e.g., B 5): 3 11
+Enter connected node and weight (e.g., B 5): 4 12
+Enter connected node and weight (e.g., B 5): 5 15
+Enter the name of node 2: 2
+Enter the number of outgoing connections from 2: 4
+Enter connected node and weight (e.g., B 5): 1 7
+Enter connected node and weight (e.g., B 5): 3 20
+Enter connected node and weight (e.g., B 5): 4 10
+Enter connected node and weight (e.g., B 5): 5 12
+Enter the name of node 3: 3
+Enter the number of outgoing connections from 3: 4
+Enter connected node and weight (e.g., B 5): 1 11
+Enter connected node and weight (e.g., B 5): 2 20
+Enter connected node and weight (e.g., B 5): 4 13
+Enter connected node and weight (e.g., B 5): 5 17
+Enter the name of node 4: 4
+Enter the number of outgoing connections from 4: 4
+Enter connected node and weight (e.g., B 5): 1 12
+Enter connected node and weight (e.g., B 5): 2 10
+Enter connected node and weight (e.g., B 5): 3 13
+Enter connected node and weight (e.g., B 5): 5 5
+Enter the name of node 5: 5
+Enter the number of outgoing connections from 5: 4
+Enter connected node and weight (e.g., B 5): 1 15
+Enter connected node and weight (e.g., B 5): 2 12
+Enter connected node and weight (e.g., B 5): 3 17
+Enter connected node and weight (e.g., B 5): 4 5
+Enter the starting node: 1
+Shortest Path: 1 -> 2 -> 5 -> 4 -> 3 -> 1
+Shortest Distance: 48
+Remaining Path from 1 to 5: 1 -> 2 -> 3 -> 4 -> 5 -> 1
+Remaining Distance: 60
+Remaining Path from 1 to 4: 1 -> 2 -> 3 -> 5 -> 4 -> 1
+Remaining Distance: 61
+Remaining Path from 1 to 5: 1 -> 2 -> 4 -> 3 -> 5 -> 1
+Remaining Distance: 62
+Remaining Path from 1 to 3: 1 -> 2 -> 4 -> 5 -> 3 -> 1
+Remaining Distance: 50
+Remaining Path from 1 to 4: 1 -> 2 -> 5 -> 3 -> 4 -> 1
+Remaining Distance: 61
+Remaining Path from 1 to 3: 1 -> 2 -> 5 -> 4 -> 3 -> 1
+Remaining Distance: 48
+Remaining Path from 1 to 5: 1 -> 3 -> 2 -> 4 -> 5 -> 1
+Remaining Distance: 61
+Remaining Path from 1 to 4: 1 -> 3 -> 2 -> 5 -> 4 -> 1
+Remaining Distance: 60
+Remaining Path from 1 to 5: 1 -> 3 -> 4 -> 2 -> 5 -> 1
+Remaining Distance: 61
+Remaining Path from 1 to 2: 1 -> 3 -> 4 -> 5 -> 2 -> 1
+Remaining Distance: 48
+Remaining Path from 1 to 4: 1 -> 3 -> 5 -> 2 -> 4 -> 1
+Remaining Distance: 62
+Remaining Path from 1 to 2: 1 -> 3 -> 5 -> 4 -> 2 -> 1
+Remaining Distance: 50
+Remaining Path from 1 to 5: 1 -> 4 -> 2 -> 3 -> 5 -> 1
+Remaining Distance: 74
+Remaining Path from 1 to 3: 1 -> 4 -> 2 -> 5 -> 3 -> 1
+Remaining Distance: 62
+Remaining Path from 1 to 5: 1 -> 4 -> 3 -> 2 -> 5 -> 1
+Remaining Distance: 72
+Remaining Path from 1 to 2: 1 -> 4 -> 3 -> 5 -> 2 -> 1
+Remaining Distance: 61
+Remaining Path from 1 to 3: 1 -> 4 -> 5 -> 2 -> 3 -> 1
+Remaining Distance: 60
+Remaining Path from 1 to 2: 1 -> 4 -> 5 -> 3 -> 2 -> 1
+Remaining Distance: 61
+Remaining Path from 1 to 4: 1 -> 5 -> 2 -> 3 -> 4 -> 1
+Remaining Distance: 72
+Remaining Path from 1 to 3: 1 -> 5 -> 2 -> 4 -> 3 -> 1
+Remaining Distance: 61
+Remaining Path from 1 to 4: 1 -> 5 -> 3 -> 2 -> 4 -> 1
+Remaining Distance: 74
+Remaining Path from 1 to 2: 1 -> 5 -> 3 -> 4 -> 2 -> 1
+Remaining Distance: 62
+Remaining Path from 1 to 3: 1 -> 5 -> 4 -> 2 -> 3 -> 1
+Remaining Distance: 61
+Remaining Path from 1 to 2: 1 -> 5 -> 4 -> 3 -> 2 -> 1
+Remaining Distance: 60
